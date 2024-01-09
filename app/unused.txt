@@ -1,0 +1,81 @@
+com.safetyprotection.App:
+    private static final java.lang.String LOG_TAG
+com.safetyprotection.AppFlyer.AppsFlyerBean:
+    private static com.safetyprotection.AppFlyer.AppsFlyerBean instance
+    protected static com.safetyprotection.AppFlyer.AppsFlyerBean getInstance()
+com.safetyprotection.AppFlyer.AppsFlyerCallBase
+com.safetyprotection.AppFlyer.AppsFlyerManager
+com.safetyprotection.AppFlyer.AppsFlyerManagerDelegate
+com.safetyprotection.AppFlyer.AppsFlyerManagerDelegateImpl$1
+com.safetyprotection.AppFlyer.AppsFlyerManagerDelegateImpl$2
+com.safetyprotection.AppFlyer.AppsFlyerManagerDelegateImpl$3
+com.safetyprotection.AppFlyer.AppsFlyerManagerDelegateImpl
+com.safetyprotection.BaseActivity:
+    private java.lang.String[] CUSTOM
+    private static final java.lang.String LOG_TAG
+    private static final int RC_CAMERA_PERM
+    private static final int RC_LOCATION_CONTACTS_PERM
+    private static final int RC_LOCATION_PERM
+com.safetyprotection.EasyPermissions.EasyPermissionsManage:
+    private static final java.lang.String LOG_TAG
+    public boolean hasSmsPermission(android.content.Context)
+    public com.safetyprotection.EasyPermissions.EasyPermissionsManage setCustomPerm(int)
+    public com.safetyprotection.EasyPermissions.EasyPermissionsManage setCustomPermissions(java.lang.String[])
+com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage:
+    protected abstract boolean hasSmsPermission(android.content.Context)
+    protected abstract void setCustomPerm(int)
+    protected abstract void setCustomPermissions(java.lang.String[])
+com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletageImpl:
+    protected boolean hasSmsPermission(android.content.Context)
+    protected void setCustomPerm(int)
+    protected void setCustomPermissions(java.lang.String[])
+com.safetyprotection.IpAddress.IpAddressManage
+com.safetyprotection.Location.LocationManage
+com.safetyprotection.OkHttp.OKHttpUtils$1
+com.safetyprotection.OkHttp.OKHttpUtils$2
+com.safetyprotection.OkHttp.OKHttpUtils$3
+com.safetyprotection.OkHttp.OKHttpUtils$ICallback
+com.safetyprotection.OkHttp.OKHttpUtils$RequestLoggerInterceptor
+com.safetyprotection.OkHttp.OKHttpUtils$ResponseLoggerInterceptor
+com.safetyprotection.OkHttp.OKHttpUtils
+com.safetyprotection.OkHttp.ProgressResponseBody$1
+com.safetyprotection.OkHttp.ProgressResponseBody$2
+com.safetyprotection.OkHttp.ProgressResponseBody$ProgressListener
+com.safetyprotection.OkHttp.ProgressResponseBody
+com.safetyprotection.SafetyProtectionManageD.AppsFlyerDelegate
+com.safetyprotection.SafetyProtectionManageD.AppsFlyerDelegateImpl:
+    public void Logevent(java.lang.String,java.util.HashMap)
+    public void initAppsflyer(android.content.Context,com.safetyprotection.AppFlyer.AppsFlyerCallBase)
+    public void setAF_DEV_KEY(java.lang.String)
+com.safetyprotection.SafetyProtectionManageD.Bean.SafetyProtectionBean
+com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage:
+    public com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage IslocationTaskEnabled(boolean)
+    public void Logevent(java.lang.String,java.util.HashMap)
+    public com.safetyprotection.SafetyProtectionManageD.Bean.SafetyProtectionBean getSafetyProtectionData()
+    public com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage initAppsflyer(android.content.Context,com.safetyprotection.AppFlyer.AppsFlyerCallBase)
+    public com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage setAF_DEV_KEY(java.lang.String)
+com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate:
+    public abstract com.safetyprotection.SafetyProtectionManageD.Bean.SafetyProtectionBean getSafetyProtectionData()
+com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegateImpl:
+    public com.safetyprotection.SafetyProtectionManageD.Bean.SafetyProtectionBean getSafetyProtectionData()
+com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateImplV2:
+    public void IslocationTaskEnabled(boolean)
+com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateV2:
+    public abstract void IslocationTaskEnabled(boolean)
+com.safetyprotection.SpUtil.Delegate.SpUtilDelegate:
+    public static final java.lang.String TAG
+    public abstract int getInt(android.content.Context,java.lang.String,int)
+    public abstract long getLong(android.content.Context,java.lang.String,long)
+    public abstract void putInt(android.content.Context,java.lang.String,int)
+    public abstract void putLong(android.content.Context,java.lang.String,long)
+com.safetyprotection.SpUtil.DelegateImp.SpUtilDelegateImpl:
+    public int getInt(android.content.Context,java.lang.String,int)
+    public long getLong(android.content.Context,java.lang.String,long)
+    public void putInt(android.content.Context,java.lang.String,int)
+    public void putLong(android.content.Context,java.lang.String,long)
+com.safetyprotection.SpUtil.SpUtil:
+    public void <init>()
+    public static int getInt(android.content.Context,java.lang.String,int)
+    public static long getLong(android.content.Context,java.lang.String,long)
+    public static void putInt(android.content.Context,java.lang.String,int)
+    public static void putLong(android.content.Context,java.lang.String,long)

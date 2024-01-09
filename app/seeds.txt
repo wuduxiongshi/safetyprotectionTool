@@ -1,0 +1,64 @@
+com.safetyprotection.App
+com.safetyprotection.R$string
+com.safetyprotection.R$style
+com.safetyprotection.BaseActivity
+com.safetyprotection.R
+com.safetyprotection.R$mipmap
+com.safetyprotection.R$drawable
+com.safetyprotection.AppFlyer.AppsFlyerBean
+com.safetyprotection.R$color
+com.safetyprotection.R$xml
+com.safetyprotection.R$drawable: int ic_launcher_foreground
+com.safetyprotection.R$string: int returned_from_app_settings_to_activity
+com.safetyprotection.R$string: int sms
+com.safetyprotection.R$xml: int backup_rules
+com.safetyprotection.R$color: int purple_200
+com.safetyprotection.R$color: int teal_200
+com.safetyprotection.R$mipmap: int ic_launcher_round
+com.safetyprotection.R$style: int Theme_SafetyProtection
+com.safetyprotection.R$color: int purple_500
+com.safetyprotection.R$string: int no
+com.safetyprotection.R$string: int location_and_contacts
+com.safetyprotection.R$string: int rationale_camera
+com.safetyprotection.R$string: int rationale_sms
+com.safetyprotection.R$string: int rationale_custom
+com.safetyprotection.R$string: int rationale_location
+com.safetyprotection.R$xml: int data_extraction_rules
+com.safetyprotection.R$string: int camera
+com.safetyprotection.R$color: int black
+com.safetyprotection.R$color: int purple_700
+com.safetyprotection.R$color: int white
+com.safetyprotection.R$mipmap: int ic_launcher
+com.safetyprotection.R$drawable: int ic_launcher_background
+com.safetyprotection.R$string: int rationale_location_contacts
+com.safetyprotection.R$string: int yes
+com.safetyprotection.R$color: int teal_700
+com.safetyprotection.AppFlyer.AppsFlyerBean: java.lang.String getAf_status()
+com.safetyprotection.R: R()
+com.safetyprotection.R$style: R$style()
+com.safetyprotection.AppFlyer.AppsFlyerBean: java.lang.String getAf_message()
+com.safetyprotection.AppFlyer.AppsFlyerBean: void setAf_status(java.lang.String)
+com.safetyprotection.AppFlyer.AppsFlyerBean: java.lang.String toString()
+com.safetyprotection.R$color: R$color()
+com.safetyprotection.AppFlyer.AppsFlyerBean: void setAf_message(java.lang.String)
+com.safetyprotection.App: App()
+com.safetyprotection.BaseActivity: void onRationaleDenied(int)
+com.safetyprotection.R$drawable: R$drawable()
+com.safetyprotection.AppFlyer.AppsFlyerBean: AppsFlyerBean()
+com.safetyprotection.AppFlyer.AppsFlyerBean: boolean isIs_first_launch()
+com.safetyprotection.BaseActivity: void onPermissionsGranted(int,java.util.List)
+com.safetyprotection.BaseActivity: void onPermissionsDenied(int,java.util.List)
+com.safetyprotection.App: android.content.Context getContext()
+com.safetyprotection.BaseActivity: void locationAndContactsTask()
+com.safetyprotection.R$string: R$string()
+com.safetyprotection.App: com.safetyprotection.App getInstants()
+com.safetyprotection.BaseActivity: void locationTask()
+com.safetyprotection.BaseActivity: void customTask()
+com.safetyprotection.BaseActivity: void cameraTask()
+com.safetyprotection.BaseActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.safetyprotection.App: void onCreate()
+com.safetyprotection.BaseActivity: BaseActivity()
+com.safetyprotection.R$mipmap: R$mipmap()
+com.safetyprotection.AppFlyer.AppsFlyerBean: void setIs_first_launch(boolean)
+com.safetyprotection.R$xml: R$xml()
+com.safetyprotection.BaseActivity: void onRationaleAccepted(int)
