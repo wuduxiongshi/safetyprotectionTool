@@ -1,7 +1,16 @@
+import com.android.build.gradle.internal.dsl.decorator.SupportedPropertyType.Collection.List.type
+import org.gradle.internal.impldep.org.eclipse.jgit.lib.InflaterCache.release
+
 plugins {
     id("com.android.library")
     `maven-publish`
 }
+
+tasks.register<Jar>("generateSourcesJar") {
+    from(android.sourceSets.getByName("main").java.srcDirs)
+    archiveClassifier.set("sources")
+}
+
 
 android {
     namespace = "com.safetyprotection"
@@ -26,6 +35,27 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+}
+
+android {
+    publishing {
+        singleVariant("release")
+    }
+}
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                // 如果是 Android 库，使用 `from(components["release"])`
+                // 如果是 Java 库，使用 `from(components["java"])`
+                groupId = "com.safetyprotection"  // 依赖库的组 ID
+                artifactId = "SafetyProtection"        // 依赖库的名称
+                version = "1.0.0"                // 当前版本依赖库版本号
+
+                // 可以添加其他配置，如 pom 信息
+            }
+        }
     }
 }
 
